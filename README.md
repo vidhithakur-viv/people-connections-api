@@ -210,8 +210,4 @@ BadRequestException / PersonNotFoundException   mapped to 400 / 404 by ApiHandle
 
 ## AI tools used
 
-Claude (Anthropic) was used to plan the design and to write the code, tests and
-this README, including a review pass against the task statement. The result was
-checked by running the full test suite, exercising every endpoint with curl on
-the packaged jar, and a mutation check (changing the hop limit to 2 or 4 makes the
-boundary tests fail).
+Claude (Anthropic) was used to write the code and tests.
